@@ -1,0 +1,6 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "ExpensesTracker",
+  "webDir": "dist",
+  "CAPACITOR_ANDROID_STUDIO_PATH": "/mnt/c/Program Files/Android/Android Studio/bin/studio64.exe"
+}

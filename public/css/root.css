@@ -1,0 +1,104 @@
+:root{
+    --main-bg-color:#04395E;
+    --secondary-bg-color:#031D44;
+    --default-text-color:#F3EFF5;
+    --secondary-text-color:#72B01D;
+    --extra-text-color:#3F7D20;
+    --ion-background-color:#04395E !important;
+    --ion-tab-bar-background:#031D44 !important;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body ,html {
+    overflow: hidden;
+}
+p,
+span,
+label,
+ion-tab-button a
+{
+    color:var(--default-text-color);
+}
+button
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button.btn-secondary{
+    background-color: var(--secondary-bg-color);
+    width:100%;
+}
+button.btn-secondary:hover{
+    background-color: var(--);
+}
+.router-link-exact-active
+{
+    color:var(--secondary-text-color) !important;
+}
+ion-tab-button a,
+ion-tab-button .router-link-wrapper
+{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 100% !important;
+    text-decoration: none !important;
+}
+
+ion-tab-button a ion-icon,
+ion-tab-button .router-link-wrapper ion-icon
+{
+    font-size: 24px !important;
+    margin-bottom: 4px !important;
+}
+
+ion-tab-button a ion-label,
+ion-tab-button .router-link-wrapper ion-label
+{
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+.tab-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.tab-icon{
+    font-size:2rem;
+    text-decoration: none !important;
+
+}
+.btn-group{
+    display:flex !important;
+    gap:10px !important;
+}
+
+.card-responsive {
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    overflow: auto;
+}
+.no-border-btn{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.no-border-btn:active{
+    transform: scale(0.9) ;
+}
